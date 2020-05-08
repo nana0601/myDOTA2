@@ -1,0 +1,329 @@
+.sevNav>a:nth-child(4){
+	background: url(../images/split1.gif) no-repeat center bottom;
+}
+.main>.banner{
+	width: 100%;
+	height: 122px;
+	background: url(../images/banner.jpg)no-repeat center top;
+	position: relative;
+}
+.main>.banner>.title{
+	height: 100%;
+	width: 950px;
+}
+.main>.banner>.title>.conc{
+	display: block;
+	float: left;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 40px;
+}
+.conc>span{
+	display: inline-block;
+	height: 25px;
+	width: 100px;
+	font-size: 18px;
+	color: #333;
+	margin-left: 20px;
+	background: url(../images/split.png) no-repeat 76px -70px;
+	position: relative;
+}
+.selSev{
+	width: 707px;
+	height: auto;
+	border: 1px solid #e6e6e6;
+	margin-right: 16px;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	font-size: 16px;
+	font-weight: normal;
+	display: none;
+}
+.conc>span:hover>.selSev{
+	display: block;
+}
+.selSev>.gameCategory{
+	width: 100%;
+	height: 67px;
+	padding: 26px 0 0 36px;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	position: relative;
+}
+.selSev>.gameCategory>.line{
+	width: 19%;
+	height: 3px;
+	background: #df333e;
+	position: absolute;
+	left: 36px;
+	bottom: -1px;
+}
+.selSev>.gameCategory>li{
+	float: left;
+	margin: 0 1%;
+	cursor: pointer;
+	width: 18%;
+	text-align: center;
+}
+.selSev>.gameCategory>li>i{
+	display: block;
+	float: left;
+	width: 18px;
+	height: 15px;
+	background: url(../images/t1.png)no-repeat;
+	margin: 6px 0;
+}
+.selSev>.gameCategory>li.active{
+	color: #e4393c;
+}
+.selSev>.gameCategory>li>i.bg{
+	background-position: 0px -16px;
+}
+.selSev>.gameCategory>li:nth-child(2)>i{
+	background-position: -17px 0px;
+}
+.selSev>.gameCategory>li:nth-child(3)>i{
+	background-position: -71px 0px;
+}
+.selSev>.gameCategory>li:nth-child(4)>i{
+	background-position: -54px 0px;
+}
+.selSev>.gameCategory>li:nth-child(5)>i{
+	background-position: -90px 0px;
+}
+.selSev>.gameBox{
+	width: 90%;
+	margin: 10px auto;
+	height: auto;
+	overflow: hidden;
+}
+.selSev>.gameBox>li{
+	float: left;
+	padding: 10px 0;
+	width: 25%;
+}
+.selSev>.gameBox>li>a{
+	color: #000;
+	text-decoration: none;
+	background: url(../images/split.png) no-repeat 10px 10px;
+	padding-left: 20px;
+}
+.selSev>.gameBox>li>a:hover{
+	color: #e4393c;
+	background-position: 10px -5px;
+}
+.selSev>.gameBox>li>i{
+	display: inline-block;
+	width: 10px;
+	height: 11px;
+	background: url(../images/split.png) no-repeat 10px;
+	margin: 9px 0 0 3px;
+}
+.selSev>.gameBox>li>i.hot{
+	background-position: 0 -55px;
+}
+.selSev>.gameBox>li>i.new{
+	background-position: 0 -44px;
+}
+.selSev>.tip{
+	width: 80%;
+	height: auto;
+	margin: 10px auto;
+}
+.selSev>.tip>div{
+	display: inline-block;
+	width: auto;
+	margin-right: 20px;
+	font-size: 12px;
+	color: #989898;
+}
+.selSev>.tip>div>span{
+	display: inline-block;
+}
+.selSev>.tip>div>span.newTip{
+	width: 10px;
+	height: 11px;
+	background: url(../images/split.png)no-repeat; 
+	margin: 3px 4px 0;
+}
+.selSev>.tip>div>span.nt{
+	background-position: 0 -55px;
+}
+.selSev>.tip>div>span.ht{
+	background-position: 0 -44px;
+}
+
+.main>.banner>.title>.right{
+	float: right;
+	margin-top: 40px;
+	height: 34px;
+	border: 1px solid #e4393c;
+	border-radius: 20px;
+	overflow: hidden;
+	background: #fff;
+}
+.right>#select{
+	outline: none;
+	border: none;
+	width: 110px;
+	height: 100%;
+	margin-left: 20px;
+	border-right: 1px solid #ccc;
+	display: block;
+	float: left;
+}
+.right>.search{
+	width: 250px;
+	display: block;
+	float: left;
+	outline: none;
+	height: 100%;
+	border: none;
+	padding-left: 10px;
+}
+.right>.btn{
+	height: 100%;
+	width: 50px;
+	background: #e21222 url(../images/search.png) no-repeat center 0;
+	display: block;
+	float: left;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	outline: none;
+	border: none;
+}
+.main>.title{
+	width: 950px;
+	margin: 30px auto 11px;
+	font-size: 14px;
+	color: #999;
+}
+.main>.title>.left>a{
+	color: #999;
+	text-decoration: none;
+}
+.main>.title>.left>span{
+	color: #cc0000;
+}
+.content{
+	width: 950px;
+	margin: 0 auto;
+}
+.content>.c-left{
+	width: 707px;
+	float: left;
+	border: 1px solid #ddd;
+	height: auto;
+	padding: 38px 22px 0 22px;
+}
+.content>.c-right{
+	width: 225px;
+	float: right;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #7f8c8d;
+}
+.c-right>.login{
+	padding: 13px;
+	width: 100%;
+	margin-bottom: 10px!important;
+	line-height: 20px;
+	border: 1px solid #ddd;
+	overflow: hidden;
+}
+.c-right>.contactWay{
+	width: 100%;
+	border: 1px solid #ddd;
+	height: 172px;
+	padding: 10px 0 0px 20px;
+}
+.contactWay>a{
+	width: 50px;
+	height: 65px;
+	display: block;
+	float: left;
+	font-size: 12px;
+	margin: 0 17px 15px 0;
+	position: relative;
+	z-index: 999;
+	color: #666;
+	text-align: center;
+	text-decoration: none;
+}
+.contactWay>a>img{
+	display: block;
+}
+.contactWay>a:hover{
+	color: #df333e;
+}
+.login>img{
+	display: block;
+	float: left;
+}
+.login_txt{
+	width: 108px;
+	float: left;
+	margin-left: 8px;
+	color: #7f8c8d;
+	margin-top: 26px;
+}
+.login_txt>a{
+	text-decoration: none;
+	color: #cc0000;
+}
+.ways{
+	margin-bottom: 40px;
+}
+.ways>.w-title{
+	font-weight: 600;
+	color: #333;
+}
+.ways>.desc{
+	font-size: 12px;
+	color: #999;
+}
+.ways>a{
+	padding: 8px 22px;
+	text-align: center;
+	border: 1px solid #dedede;
+	color: #333;
+	font-size: 12px;
+	text-decoration: none;
+	background: #fff;
+	background: -moz-linear-gradient(top, #fff, #fafafa);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#fafafa));
+	margin-right: 17px;
+}
+.ways>.desc-box{
+	margin-bottom: 20px;
+	height: auto;
+}
+.ways>.none{
+	padding: 20px 0;
+}
+.ways>.desc-box>.tel{
+	padding: 8px 22px;
+	text-align: center;
+	border: 1px solid #dedede;
+	color: #333;
+	font-size: 12px;
+	text-decoration: none;
+	background: #fff;
+	background: -moz-linear-gradient(top, #fff, #fafafa);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#fafafa));
+	margin-right: 17px;
+}
+.ways>.desc-box>span{
+	display: block;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.warm{
+	font-size: 12px;
+	color: #ff0000;
+	margin: 20px 0 40px;
+}
+.ways>div{
+	font-size: 12px;
+}

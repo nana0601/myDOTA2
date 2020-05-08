@@ -1,0 +1,75 @@
+.sevNav>a:nth-child(3){
+	background: url(../images/split1.gif) no-repeat center bottom;
+}
+.main>.banner{
+	width: 100%;
+	height: 122px;
+	background: url(../images/banner.jpg)no-repeat center top;
+}
+.main>.banner>.title{
+	font-size: 30px;
+	font-weight: bold;
+	height: 100%;
+	line-height: 122px;
+	width: 950px;
+}
+.main>.games{
+	width: 950px;
+	padding-top: 38px;
+}
+.games>.kinds{
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+.kinds>.intro{
+	width: 110px;
+	height: 110px;
+	background: url(../images/t1.png)no-repeat;
+	overflow: hidden;
+	float: left;
+}
+.kinds:nth-child(1)>.intro{
+	background-position: 0 -60px;
+}
+.kinds:nth-child(2)>.intro{
+	background-position: 0 -280px;
+}
+.kinds:nth-child(3)>.intro{
+	background-position: 0 -500px;
+}
+.kinds:nth-child(4)>.intro{
+	background-position: 0 -610px;
+}
+.kinds>.intro>p{
+	text-align: center;
+	color: #fff;
+	margin-top: 68px;
+}
+.kinds>.list{
+	float: left;
+	margin-left: 60px;
+	width: calc(100% - 170px);
+	padding-top: 40px;
+}
+.kinds:nth-child(1)>.list{
+	padding-top: 0;
+}
+.kinds>.list>a{
+	width: 20%;
+	height: 26px;
+	display: block;
+	float: left;
+	margin-bottom: 25px;
+	background-repeat: no-repeat;
+	line-height: 26px;
+	text-decoration: none;
+	color: #808080;
+	position: relative;
+	padding-left: 30px;
+}
+.kinds>.list>a>img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}

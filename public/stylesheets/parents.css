@@ -1,0 +1,293 @@
+.nav{
+	background: url(../images/bg2.jpg)no-repeat;
+	height: 528px;
+}
+.content{
+	width: 1000px;
+	padding: 50px 0 0;
+}
+.text{
+	width: 100%;
+	line-height: 48px;
+	text-align: center;
+	font-size: 30px;
+}
+.btnBox{
+	height: auto;
+	width: 100%;
+	padding: 50px 0;
+}
+.btnBox>div.btn1,.btnBox>div.btn2{
+	width: 344px;
+	height: 87px;
+	margin:0 auto 25px;
+	position: relative;
+	cursor: pointer;
+}
+.btnBox>div.btn1{
+	background: url(../images/btn1.png)no-repeat;
+}
+.btnBox>div.btn2{
+	background: url(../images/btn2.png)no-repeat;
+}
+.btnBox>div:hover>.games{
+	display: block;
+}
+.btnBox>div>.games{
+	position: absolute;
+	left: 0;
+	top: 87px;
+	width: 100%;
+	padding: 3px 0;
+	background-color: #e5e5ea;
+	border-radius: 5px;
+	z-index: 4;
+	color: #000;
+	display: none;
+}
+.btnBox>div>.games>li{
+	margin: 3px auto;
+	width: 330px;
+	height: 33px;
+	text-align: center;
+	line-height: 33px;
+	background: url(../images/btn-gray2.png) no-repeat center;
+	font-size: 18px;
+	color: #666666;
+}
+.btnBox>div>.games>li:hover{
+	color: #000;
+}
+.phone{
+	width: 310px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	text-indent: 42px;
+	background: url(../images/icon1.png) no-repeat 0 center;
+	font-size: 22px;
+	color: #4471a8;
+}
+.email{
+	width: 370px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	text-indent: 42px;
+	background: url(../images/icon2.png) no-repeat 0 center;
+	font-size: 22px;
+	color: #4471a8;
+}
+.btnBox strong{
+	color: #434a52;
+	font-weight: normal;
+}
+.jiazhang{
+	width: 100%;
+	overflow: hidden;
+}
+.jiazhang>div{
+	margin: 10px 0;
+	float: left;
+	padding: 40px;
+	width: 498px;
+	height: 307px;
+	background-color: #f0f5f9;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+.jiazhang>div.intr{
+	background-image: url(../images/instruction-bg.png);
+	float: left;
+}
+.jiazhang>div.sele{
+	background-image: url(../images/search-bg.png);
+	float: right;
+}
+.box-title{
+	margin: 0px 0 30px;
+	background-image: url(../images/icon.png);
+	background-repeat: no-repeat;
+	font-size: 30px;
+	color: #4471a8;
+	height: 40px;
+	line-height: 40px;
+}
+.intrT{
+	text-indent: 130px;
+	background-position: 84px -156px;
+}
+.seleT{
+	text-indent: 84px;
+	background-position: 40px -78px;
+}
+.jiazhang p{
+	font-size: 14px;
+	line-height: 28px;
+}
+.content>.req{
+	width: 100%;
+}
+.reqT{
+	width: 100%;
+	margin: 20px 0 30px;
+}
+.reqT>p{
+	margin: 0;
+	height: 40px;
+	line-height: 40px;
+	background-image: url(../images/icon.png);
+	background-repeat: no-repeat;
+	font-size: 30px;
+	color: #4471a8;
+	text-indent: 398px;
+	background-position: 354px -4px;
+}
+.reqT>span{
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	color: #868690;
+}
+.step{
+	width: 100%;
+	position: relative;
+	height: 300px;
+	margin: 20px 0;
+}
+.step>span{
+	background: #4471a8;
+	position: absolute;
+	display: block;
+	min-width: 70px;
+	padding: 0 14px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 22px;
+}
+.step>.step-item:after {
+    display: block;
+    content: '';
+    position: absolute;
+    right: -12px;
+    top: 50%;
+    margin-top: -8px;
+    width: 14px;
+    height: 16px;
+}
+.step>.step-item-yellow{
+	background-color: #e2990b;
+	left: 244px;
+	top: 124px;
+}
+.step>.step-item-yellow:after {
+    background: url(../images/icon-tringle-yellow.png) no-repeat center;
+}
+.step>.step-item-green{
+	background-color: #09bc66;
+	left: 900px;
+	top: 93px;
+}
+.step>.step-item-red{
+	background-color: #cb0c15;
+	left: 750px;
+	top: 151px;
+}
+.step>.item1{
+	left: 0;
+	top: 124px;
+}
+.step>.item2{
+	left: 130px;
+	top: 124px;
+}
+.step>.item3{
+	left: 375px;
+	top: 124px;
+}
+.step>.item4{
+	left: 470px;
+	top: 124px;
+}
+.step>.item5{
+	width: 140px;
+	left: 586px;
+	top: 93px;
+}
+.step>.item6{
+	width: 140px;
+	left: 586px;
+	top: 151px;
+}
+.step>.item7{
+	width: 130px;
+	left: 748px;
+	top: 93px;
+	font-size: 16px;
+	line-height: 18px;
+	padding-top: 4px;
+	height: 42px;
+}
+.step>.step-item-blue:after {
+    background: url(../images/icon-tringle-blue.png) no-repeat center;
+}
+.step>.item4:after{
+	width: 17px;
+	height: 36px;
+	margin-top: -18px;
+	right: -8px;
+	background: url(../images/icon-tringle-blue2.png) no-repeat center;
+}
+.step>.conection{
+	left: 340px;
+	top: 68px;
+}
+.step>.step-box{
+	color: #434a52;
+	background-color: #e9e8f0;
+	border-radius: 10px;
+	font-size: 12px;
+}
+.step>.contactWay{
+	left: 85px;
+	top: 20px;
+	text-align: left;
+	line-height: 16px;
+	height: auto;
+	padding: 14px;
+}
+.step>.write{
+	left: 186px;
+	top: 185px;
+	line-height: 16px;
+	height: auto;
+	padding: 14px;
+	text-align: left;
+}
+.step>.step-box::after{
+	display: block;
+	content: '';
+	position: absolute;
+	bottom: -18px;
+	left: 50%;
+	margin-left: -10px;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-top-color: #e9e8f0;
+}
+.step>.write::after{
+	top: -18px;
+	border-color: transparent;
+	border-bottom-color: #e9e8f0;
+}
+.step>.contactWay>span{
+	color: #4471a8;
+}
+.step>.contactWay>a{
+	color: #4471a8;
+	text-decoration: none;
+}

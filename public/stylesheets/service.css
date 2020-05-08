@@ -1,0 +1,385 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.fixed{
+	position: fixed;
+	top: 40%;
+	right: 40px;
+	z-index: 100;
+}
+.goTop{
+	position: fixed;
+	bottom: 60px;
+	right: 100px;
+	width: 35px;
+	display: none;
+	z-index: 100;
+}
+.sevNav>a:nth-child(1){
+	background: url(../images/split1.gif) no-repeat center bottom;
+}
+/* 主体S */
+.main{
+	height: auto;
+}
+.mainTop{
+	width: 100%;
+	background: url(../images/lb_bg.jpg) repeat-x;
+}
+.slideBox,.mainBox{
+	width: 950px;
+	margin: 0 auto;
+	height: auto;
+}
+.title{
+	height: 58px;
+	width: 100%;
+	margin: 0;
+	position: relative;
+}
+.left{
+	height: 100%;
+	font-weight: 600;
+	line-height: 58px;
+	display: inline-block;
+}
+.left span{
+	font-size: 10px;
+	font-weight: normal;
+	color: #999;
+	margin-left: 5px;
+}
+.right{
+	position: absolute;
+	right: 0;
+	top: 12px;
+	width: auto;
+	height: 34px;
+	border: 1px solid #e4393c;
+	border-radius: 20px;
+}
+#select{
+	outline: none;
+	border: none;
+	width: 110px;
+	height: 100%;
+	margin-left: 20px;
+	border-right: 1px solid #ccc;
+	display: block;
+	float: left;
+}
+.search{
+	width: 250px;
+	display: block;
+	float: left;
+	outline: none;
+	height: 100%;
+	border: none;
+	padding-left: 10px;
+}
+.btn{
+	height: 100%;
+	width: 50px;
+	background: #e21222 url(../images/search.png) no-repeat center 0;
+	display: block;
+	float: left;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	outline: none;
+}
+.list{
+	width: 100%;
+	margin: 0;
+	height: auto;
+}
+.list>.li{
+	padding: 7px;
+	margin-right: 16px;
+	border: 1px solid #e6e6e6;
+	width: 225px;
+}
+.list>.li:nth-last-child(1){
+	margin: 0;
+}
+.card{
+	border: none;
+}
+.card-body{
+	margin: 0;
+	padding: 10px;
+}
+.card-body a{
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration: none;
+	color: #333;
+	padding-left: 37px;
+	background: url(../images/split.png) no-repeat 22px 10px;
+}
+.card-body a:hover{
+	color: #e4393c;
+	background-position: 22px -5px;
+}
+.card-body>li{
+	position: relative;
+	height: 30px;
+}
+.list>.li>.card>.cBox{
+	position: relative;
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+.card-body a.more{
+	color: #999999;
+	font-size: 12px;
+	position: absolute;
+	bottom: 3px;
+	right: 9px;
+	background: none;
+}
+.list>.li .cBox>.hover{
+	position: absolute;
+	top: 89px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/header.jpg) no-repeat center;
+	color: #fff;
+	text-align: center;
+	display: none;
+}
+.list>.li .cBox>.hover>.kind{
+	font-size: 20px;
+	font-weight: 600;
+	margin: 20px 0 5px;
+}
+.list>.li .cBox>.hover>.self{
+	font-size: 12px;
+}
+.list>.li>.card>.cBox:hover .hover{
+	display: block;
+	top: 0;
+	transition: all 3s linear;
+}
+.bot{
+	width: 100%;
+	margin: 0;
+	height: auto;
+}
+.selSev{
+	width: 707px;
+	height: auto;
+	border: 1px solid #e6e6e6;
+	margin-top: 17px;
+	margin-right: 16px;
+}
+.selSev>.title{
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+	font-weight: 600;
+	background: #f5f5f5;
+	line-height: 40px;
+}
+.selSev>.gameCategory{
+	width: 100%;
+	height: 67px;
+	padding: 26px 0 0 36px;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	position: relative;
+}
+.selSev>.gameCategory>.line{
+	width: 19%;
+	height: 3px;
+	background: #df333e;
+	position: absolute;
+	left: 36px;
+	bottom: -1px;
+}
+.selSev>.gameCategory>li{
+	float: left;
+	margin: 0 1%;
+	cursor: pointer;
+	width: 18%;
+	text-align: center;
+}
+.selSev>.gameCategory>li>i{
+	display: block;
+	float: left;
+	width: 18px;
+	height: 15px;
+	background: url(../images/t1.png)no-repeat;
+	margin: 6px 0;
+}
+.selSev>.gameCategory>li.active{
+	color: #e4393c;
+}
+.selSev>.gameCategory>li>i.bg{
+	background-position: 0px -16px;
+}
+.selSev>.gameCategory>li:nth-child(2)>i{
+	background-position: -17px 0px;
+}
+.selSev>.gameCategory>li:nth-child(3)>i{
+	background-position: -71px 0px;
+}
+.selSev>.gameCategory>li:nth-child(4)>i{
+	background-position: -54px 0px;
+}
+.selSev>.gameCategory>li:nth-child(5)>i{
+	background-position: -90px 0px;
+}
+.selSev>.gameBox{
+	width: 90%;
+	margin: 10px auto;
+	height: auto;
+	overflow: hidden;
+}
+.selSev>.gameBox>li{
+	float: left;
+	padding: 10px 0;
+	width: 25%;
+}
+.selSev>.gameBox>li>a{
+	color: #000;
+	text-decoration: none;
+	background: url(../images/split.png) no-repeat 10px 10px;
+	padding-left: 20px;
+}
+.selSev>.gameBox>li>a:hover{
+	color: #e4393c;
+	background-position: 10px -5px;
+}
+.selSev>.gameBox>li>i{
+	display: inline-block;
+	width: 10px;
+	height: 11px;
+	background: url(../images/split.png) no-repeat 10px;
+	margin: 9px 0 0 3px;
+}
+.selSev>.gameBox>li>i.hot{
+	background-position: 0 -55px;
+}
+.selSev>.gameBox>li>i.new{
+	background-position: 0 -44px;
+}
+.selSev>.tip{
+	width: 80%;
+	height: auto;
+	margin: 10px auto;
+}
+.selSev>.tip>div{
+	display: inline-block;
+	width: auto;
+	margin-right: 20px;
+	font-size: 12px;
+	color: #989898;
+}
+.selSev>.tip>div>span{
+	display: inline-block;
+}
+.selSev>.tip>div>span.newTip{
+	width: 10px;
+	height: 11px;
+	background: url(../images/split.png)no-repeat; 
+	margin: 3px 4px 0;
+}
+.selSev>.tip>div>span.nt{
+	background-position: 0 -55px;
+}
+.selSev>.tip>div>span.ht{
+	background-position: 0 -44px;
+}
+
+.talk{
+	height: auto;
+	width: 225px;
+	margin-top: 17px;
+}
+.talk>.public{
+	width: 100%;
+	border: 1px solid #ddd;
+	height: 173px;
+	margin-bottom: 17px;
+}
+.pTitle{
+	height: 41px;
+	width: 100%;
+	line-height: 40px;
+	font-weight: 600;
+	border-bottom: 1px solid #ddd;
+	padding: 0 10px;
+	background: #f5f5f5;
+}
+.pTitle>a{
+	font-size: 12px;
+	color: #000;
+	font-weight: normal;
+	float: right;
+	display: block;
+	text-decoration: none;
+}
+.public>ul{
+	width: 100%;
+	height: calc(100% - 41px);
+}
+.public>ul>li{
+	width: 204px;
+	height: 20px;
+	line-height: 20px;
+	margin: 5px auto;
+	font-size: 12px;
+}
+.public>ul>li>a{
+	color: #666666;
+	text-decoration: none;
+	background: url(../images/split.png) no-repeat 0 7px;
+	padding-left: 5px;
+	margin-right: 5px;
+}
+.public>ul>li>a:hover{
+	color: #df333e;
+	background-position: 0px -8px;
+}
+.public>ul>li>.time{
+	float: right;
+}
+.public>ul>li>.num{
+	color: #2bac22;
+	font-size: 10px;
+}
+.talk>.other{
+	width: 100%;
+	border: 1px solid #ddd;
+	height: 172px;
+	padding: 10px 0 0px 20px;
+}
+.other>a{
+	width: 50px;
+	height: 65px;
+	display: block;
+	float: left;
+	font-size: 12px;
+	margin: 0 17px 15px 0;
+	position: relative;
+	z-index: 999;
+	color: #666;
+	text-align: center;
+	text-decoration: none;
+}
+.other>a:hover{
+	color: #df333e;
+}
+.other>a>img{
+	display: block;
+}
+/* 主体E */
